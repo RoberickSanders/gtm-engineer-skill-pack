@@ -1,1 +1,1 @@
-dnspython>=2.4  # only for mx_lookup.py --live
+dnspython>=2.7.0  # only for mx_lookup.py --live
