@@ -1,0 +1,27 @@
+company,domain,industry,employees,country,open_roles,raised_last_12mo,contact_name,contact_title,website_note
+Acme Co,acme.example.com,Marketing Agency,30,CA,20,yes,Alex Rivera,VP Marketing,Student blog
+Globex Co,globex.example.com,E-commerce,120,DE,1,no,Sam Patel,Head of Growth,Online store for outdoor gear
+Initech Co,initech.example.com,SaaS,8,CA,13,yes,Jordan Lee,Head of Growth,We run paid social and search for 40 brands
+Umbrella Co,umbrella.example.com,Retail,1200,CA,1,no,Taylor Kim,VP Marketing,Online store for outdoor gear
+Hooli Co,hooli.example.com,Healthcare,5000,DE,1,no,Casey Morgan,Intern,Local bakery
+Vandelay Co,vandelay.example.com,Manufacturing,8,US,1,no,Riley Chen,Head of Growth,Agency managing Google Ads and Meta for clients
+Stark Co,stark.example.com,Media,450,US,17,yes,Jamie Fox,Intern,Hiring a marketing analyst
+Wayne Co,wayne.example.com,Fintech,1200,US,3,no,Morgan Diaz,Intern,Hiring a marketing analyst
+Wonka Co,wonka.example.com,Marketing Agency,120,US,17,no,Drew Park,VP Marketing,Local bakery
+Soylent Co,soylent.example.com,E-commerce,1200,US,15,no,Avery Stone,Intern,We run paid social and search for 40 brands
+Tyrell Co,tyrell.example.com,SaaS,120,CA,18,no,Alex Rivera,Marketing Ops Manager,Agency managing Google Ads and Meta for clients
+Cyberdyne Co,cyberdyne.example.com,Retail,30,US,22,yes,Sam Patel,VP Marketing,Hiring a marketing analyst
+Gringotts Co,gringotts.example.com,Healthcare,1200,CA,10,no,Jordan Lee,CEO,Hiring a marketing analyst
+Oscorp Co,oscorp.example.com,Manufacturing,1200,US,3,no,Taylor Kim,CEO,Hiring a marketing analyst
+Pied Piper Co,piedpiper.example.com,Media,120,US,15,no,Casey Morgan,VP Marketing,Spreadsheets for weekly ROAS reporting
+Monarch Co,monarch.example.com,Fintech,1200,DE,25,no,Riley Chen,Marketing Ops Manager,Online store for outdoor gear
+Dunder Co,dunder.example.com,Marketing Agency,1200,CA,18,no,Jamie Fox,VP Marketing,Student blog
+Prestige Co,prestige.example.com,E-commerce,120,CA,22,no,Morgan Diaz,VP Marketing,Online store for outdoor gear
+Bluth Co,bluth.example.com,SaaS,5000,UK,20,no,Drew Park,CEO,We run paid social and search for 40 brands
+Sterling Co,sterling.example.com,Retail,5000,CA,21,no,Avery Stone,VP Marketing,Hiring a marketing analyst
+Massive Co,massive.example.com,Healthcare,120,US,19,yes,Alex Rivera,CEO,Hospital network
+Duff Co,duff.example.com,Manufacturing,30,UK,4,no,Sam Patel,Head of Growth,We run paid social and search for 40 brands
+Nakatomi Co,nakatomi.example.com,Media,450,CA,2,yes,Jordan Lee,CEO,Agency managing Google Ads and Meta for clients
+Krusty Co,krusty.example.com,Fintech,1200,UK,4,no,Taylor Kim,Intern,Agency managing Google Ads and Meta for clients
+Vehement Co,vehement.example.com,Marketing Agency,5000,CA,11,no,Casey Morgan,CEO,Hiring a marketing analyst
+Example Org,example.com,SaaS,200,US,3,no,Pat Doe,Head of Growth,Reference test domain

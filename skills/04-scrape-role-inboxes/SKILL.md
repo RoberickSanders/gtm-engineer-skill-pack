@@ -1,0 +1,29 @@
+# Scrape Role Inboxes
+
+> scrapes info@ emails that convert at twice the paid rate
+
+**Status:** Spec only
+
+## One-message trigger
+"Run scrape-role-inboxes on <client>/<list>." One message should be enough. The agent already has the client brief, ICP and market research loaded.
+
+## Inputs
+- Domains (public websites only)
+- Client brief (ICP, offer, exclusions)
+
+## Steps
+1. Load the input and validate the required columns. Stop on any missing column and say which one.
+2. Run the job on the **first 10 rows only**.
+3. Write `out/sample.csv` and print it.
+4. **Gate:** stop and wait for a human to approve the 10 sample rows.
+5. Only after approval, run the full list and write `out/full.csv` plus a run summary.
+
+## The 10-sample-row gate
+No full run, paid credit, send or CRM write happens until a person has looked at 10 real output rows and said yes. In code this means the script exits after the sample unless `--approve` is passed.
+
+## Outputs
+- `out/sample.csv` (10 rows, always)
+- `out/full.csv` + `out/summary.json` (after approval only)
+
+## Run
+Spec only (no code in this pack yet).
