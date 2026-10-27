@@ -4,6 +4,29 @@ The 18 jobs a GTM engineer does, each written as an agent skill you can trigger 
 
 The list of 18 comes from a public post that asked "What on earth is a GTM engineer?". Four of the jobs have working, offline Python here. The rest are written as specs.
 
+## How it works
+
+```mermaid
+flowchart TD
+  start["Load one client's brief and account list"] --> score["Score each account from fit, size, location, hiring, and funding"]
+  score --> g1{"Approve the 10-row sample?"}
+  g1 -->|No| s1["Stop before a full run"]
+  g1 -->|Yes| qual["Mark which accounts are worth paying to enrich"]
+  qual --> g2{"Approve the 10-row sample?"}
+  g2 -->|No| s2["Stop before a paid lookup"]
+  g2 -->|Yes| water["Find an email from free sources, then mock paid sources"]
+  water --> g3{"Approve the 10-row sample?"}
+  g3 -->|No| s3["Stop before the full list is written"]
+  g3 -->|Yes| done["Save the full list and a coverage summary"]
+  start --> mail["Label each domain Google, Microsoft, other, or no mail"]
+  mail --> g4{"Approve the 10-row sample?"}
+  g4 -->|No| s4["Stop before the full list is looked up"]
+  g4 -->|Yes| maildone["Save the mail-provider split"]
+  start --> specs["The other 14 jobs are written steps only, with the same 10-row stop"]
+```
+
+A shared gate runs the chosen job on the first 10 rows, writes a sample, and waits. A person has to pass `--approve` before the same job runs on every row. Nothing is paid for, sent, or written to a CRM before that. Scoring, qualifying, and enrichment are run in that order. Mail-provider lookup is a separate step and can use an offline fixture or live DNS. The other fourteen jobs describe the same stop, and they do not have code yet.
+
 ## The pattern
 1. **Feed the agent everything on one client:** brief, ICP, offer, past campaigns, CRM exports.
 2. **Research the market and the buyers** before writing any rule.
@@ -47,7 +70,7 @@ python -m unittest discover -s tests -v
 - **Waterfall enrichment:** mock providers ordered free-first, then paid. It stops at the first verified hit and logs the provider and the mock cost.
 - **MX lookup:** classifies each domain as Google, Microsoft or other using free public DNS (`dnspython`). It has an offline fixture mode for tests.
 
-All data in `data/` is fictional (`*.example.com`-style domains, made-up names). There are no API keys and no real personal data.
+All data in `data/` is fictional placeholder data (`example.com` and `example.org` domains, names such as Jane Doe and John Smith, companies such as Example Org and Acme Corp). There are no API keys and no real personal data.
 
 ## Requirements
 Python 3.10+. `dnspython` is needed only for `mx_lookup.py --live`.
