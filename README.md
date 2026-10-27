@@ -70,7 +70,7 @@ python -m unittest discover -s tests -v
 - **Waterfall enrichment:** mock providers ordered free-first, then paid. It stops at the first verified hit and logs the provider and the mock cost.
 - **MX lookup:** classifies each domain as Google, Microsoft or other using free public DNS (`dnspython`). It has an offline fixture mode for tests.
 
-All data in `data/` is placeholder data (`example.com` and `example.org` only, contact name Jane Doe). There are no API keys and no real personal data.
+All data in `data/` is fictional placeholder data (`example.com` and `example.org` domains, names such as Jane Doe and John Smith, companies such as Example Org and Acme Corp). There are no API keys and no real personal data.
 
 ## Requirements
 Python 3.10+. `dnspython` is needed only for `mx_lookup.py --live`.

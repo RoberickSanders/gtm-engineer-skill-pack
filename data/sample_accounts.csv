@@ -1,27 +1,27 @@
 company,domain,industry,employees,country,open_roles,raised_last_12mo,contact_name,contact_title,website_note
 Example Org,example.com,Marketing Agency,30,CA,20,yes,Jane Doe,VP Marketing,Student blog
-Example Org,example.org,E-commerce,120,DE,1,no,Jane Doe,Head of Growth,Online store for outdoor gear
-Example Org,example.com,SaaS,8,CA,13,yes,Jane Doe,Head of Growth,We run paid social and search for 40 brands
-Example Org,example.org,Retail,1200,CA,1,no,Jane Doe,VP Marketing,Online store for outdoor gear
-Example Org,example.com,Healthcare,5000,DE,1,no,Jane Doe,Intern,Local bakery
-Example Org,example.org,Manufacturing,8,US,1,no,Jane Doe,Head of Growth,Agency managing Google Ads and Meta for clients
-Example Org,example.com,Media,450,US,17,yes,Jane Doe,Intern,Hiring a marketing analyst
-Example Org,example.org,Fintech,1200,US,3,no,Jane Doe,Intern,Hiring a marketing analyst
-Example Org,example.com,Marketing Agency,120,US,17,no,Jane Doe,VP Marketing,Local bakery
-Example Org,example.org,E-commerce,1200,US,15,no,Jane Doe,Intern,We run paid social and search for 40 brands
-Example Org,example.com,SaaS,120,CA,18,no,Jane Doe,Marketing Ops Manager,Agency managing Google Ads and Meta for clients
-Example Org,example.org,Retail,30,US,22,yes,Jane Doe,VP Marketing,Hiring a marketing analyst
-Example Org,example.com,Healthcare,1200,CA,10,no,Jane Doe,CEO,Hiring a marketing analyst
-Example Org,example.org,Manufacturing,1200,US,3,no,Jane Doe,CEO,Hiring a marketing analyst
-Example Org,example.com,Media,120,US,15,no,Jane Doe,VP Marketing,Spreadsheets for weekly ROAS reporting
-Example Org,example.org,Fintech,1200,DE,25,no,Jane Doe,Marketing Ops Manager,Online store for outdoor gear
-Example Org,example.com,Marketing Agency,1200,CA,18,no,Jane Doe,VP Marketing,Student blog
-Example Org,example.org,E-commerce,120,CA,22,no,Jane Doe,VP Marketing,Online store for outdoor gear
-Example Org,example.com,SaaS,5000,UK,20,no,Jane Doe,CEO,We run paid social and search for 40 brands
-Example Org,example.org,Retail,5000,CA,21,no,Jane Doe,VP Marketing,Hiring a marketing analyst
-Example Org,example.com,Healthcare,120,US,19,yes,Jane Doe,CEO,Hospital network
-Example Org,example.org,Manufacturing,30,UK,4,no,Jane Doe,Head of Growth,We run paid social and search for 40 brands
-Example Org,example.com,Media,450,CA,2,yes,Jane Doe,CEO,Agency managing Google Ads and Meta for clients
-Example Org,example.org,Fintech,1200,UK,4,no,Jane Doe,Intern,Agency managing Google Ads and Meta for clients
-Example Org,example.com,Marketing Agency,5000,CA,11,no,Jane Doe,CEO,Hiring a marketing analyst
-Example Org,example.org,SaaS,200,US,3,no,Jane Doe,Head of Growth,Reference test domain
+Acme Corp,acme.example.org,E-commerce,120,DE,1,no,John Smith,Head of Growth,Online store for outdoor gear
+Globex,globex.example.com,SaaS,8,CA,13,yes,Maria Lopez,Head of Growth,We run paid social and search for 40 brands
+Initech,initech.example.org,Retail,1200,CA,1,no,Ken Adams,VP Marketing,Online store for outdoor gear
+Hooli,hooli.example.com,Healthcare,5000,DE,1,no,Ann Example,Intern,Local bakery
+Vandelay,vandelay.example.org,Manufacturing,8,US,1,no,Joe Bloggs,Head of Growth,Agency managing Google Ads and Meta for clients
+Umbrella Co,umbrella.example.com,Media,450,US,17,yes,Mary Major,Intern,Hiring a marketing analyst
+Wonka Co,wonka.example.org,Fintech,1200,US,3,no,Richard Roe,Intern,Hiring a marketing analyst
+Soylent Co,soylent.example.com,Marketing Agency,120,US,17,no,Juan Perez,VP Marketing,Local bakery
+Pied Piper,piedpiper.example.org,E-commerce,1200,US,15,no,Alice Example,Intern,We run paid social and search for 40 brands
+Dunder Co,dunder.example.com,SaaS,120,CA,18,no,Bob Smith,Marketing Ops Manager,Agency managing Google Ads and Meta for clients
+Bluth Co,bluth.example.org,Retail,30,US,22,yes,Carol Doe,VP Marketing,Hiring a marketing analyst
+Stark Co,stark.example.com,Healthcare,1200,CA,10,no,Dave Adams,CEO,Hiring a marketing analyst
+Wayne Co,wayne.example.org,Manufacturing,1200,US,3,no,Erin Lopez,CEO,Hiring a marketing analyst
+Oscorp,oscorp.example.com,Media,120,US,15,no,Frank Doe,VP Marketing,Spreadsheets for weekly ROAS reporting
+Cyberdyne,cyberdyne.example.org,Fintech,1200,DE,25,no,Grace Smith,Marketing Ops Manager,Online store for outdoor gear
+Tyrell Co,tyrell.example.com,Marketing Agency,1200,CA,18,no,Henry Adams,VP Marketing,Student blog
+Gringotts,gringotts.example.org,E-commerce,120,CA,22,no,Irene Lopez,VP Marketing,Online store for outdoor gear
+Nakatomi,nakatomi.example.com,SaaS,5000,UK,20,no,Jack Doe,CEO,We run paid social and search for 40 brands
+Krusty Co,krusty.example.org,Retail,5000,CA,21,no,Kelly Smith,VP Marketing,Hiring a marketing analyst
+Example Labs,labs.example.com,Healthcare,120,US,19,yes,Leo Adams,CEO,Hospital network
+Acme Labs,acmelabs.example.org,Manufacturing,30,UK,4,no,Nina Lopez,Head of Growth,We run paid social and search for 40 brands
+Globex Media,globexmedia.example.com,Media,450,CA,2,yes,Oscar Doe,CEO,Agency managing Google Ads and Meta for clients
+Initech Finance,initechfinance.example.org,Fintech,1200,UK,4,no,Paula Smith,Intern,Agency managing Google Ads and Meta for clients
+Hooli Agency,hooliagency.example.com,Marketing Agency,5000,CA,11,no,Quinn Adams,CEO,Hiring a marketing analyst
+Vandelay Co,vandelayco.example.org,SaaS,200,US,3,no,Rita Lopez,Head of Growth,Reference test domain
